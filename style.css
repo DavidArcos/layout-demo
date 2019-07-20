@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction:  column;
+}
+main{
+    flex:  1;
+}
+
+section{
+    border: 1px solid red;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3 img {
+    width: 20px;
+}
+
+.section5{
+    display: flex;
+    justify-content: center;
+}
+
+.section2 div:nth-child(1){
+    border: 1px solid black;
+}
